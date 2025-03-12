@@ -171,13 +171,12 @@ h3{
 }
 /* //SKILLS */
 #skilss{
-    height: 800px;
-    width: 80%;
-    /* background-color: lawngreen; */
-    margin: 30px 0px 0px 120px;
+    height: 500px;
+    width: 70%;
+    margin: 30px 0px 0px 170px;
     border :2px solid white;
     border-radius: 15px;
-    box-shadow: 1px 1px 3px 3px burlywood;  
+    box-shadow: 1px 1px 3px 3px gray;  
 }
 .line{
     height:1px;
@@ -187,41 +186,52 @@ h3{
 
 }
 .skill{
-    margin: 40px 0px 0px 80px;
-    position: absolute;
-    border-bottom: 3px solid lightsalmon;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 25px;
     font-weight: 500;
     font-family: sans-serif;
 }
 .pl{
-    height: 250px;
-    width: 30%;
+    height: 150px;
+    width: 15%;
     border: 2px solid transparent;
     border-radius: 7px;
     float: right;
-    background-color: burlywood;
-   
-    margin:  100px 100px 0px 100px;
+    box-shadow: 2px 1px 2px 2px gray; 
+    background-color: whitesmoke;
+    margin:  50px 100px 0px 0px;
+}
+.pl:hover{
+    transform: scale(1.03);
 }
 .imgs{
-    border :2px solid white;
+    
     border-radius: 3px;
     height: 120px;
-    width: 40%;
-    margin: 35px 0px 0px 18px;
+    width: 84%;
+    margin: 10px 0px 0px 9px;
 }
 .pls{
-    font-size: 20px;
+    font-size: 17px;
     font-style: oblique;
     font-weight: bold;
-    border-bottom: 3px solid orange;
-    margin: 20px 0px 0px 30px;
+    margin: -20px 0px 0px 40px;
+}
+
+.plss{
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bold;
+    margin: -8px 0px 0px 50px;
+
 }
 
 /* //PROJECTS */
 #projectsss{
-    height: 990px;
+    height: 900px;
     width: 100%;
     margin-top: 20px;
     background-color: cadetblue;
@@ -235,13 +245,13 @@ h3{
     font-family: sans-serif;
 }
 .pjs{
-    height: 400px;
+    height: 300px;
     width: 30%;
     float: left;
     margin: 80px 0px 0px 20px;
     border :1.4px solid white;
     border-radius: 3px;
-    background-color: chartreuse;
+    background-color: rgba(128, 255, 0, 0.769);
 }
 .pimgs
 {
@@ -269,7 +279,7 @@ h3{
 
 }
 
-@media screen and (max-width: 376px) {
+@media (max-width: 800px){
 
     
 nav{
@@ -280,8 +290,8 @@ nav{
     border: 3px solid ;
     border-radius: 20px;
     position: sticky;
+   
     top:0px;
-  
     
 }
 
@@ -303,8 +313,8 @@ nav ul{
     height: 20px;
     width: 12%;
     display: block;
-    position: sticky;
-    margin: -342px 0px 0px 220px;
+    position: relative;
+    margin: -341px 0px 0px 220px;
    
 }
 .lines{
@@ -316,7 +326,7 @@ nav ul{
 #closing{
     height: 20px;
     width: 12%;
-    display: block;
+    display: none;
     margin:-18px 0px 0px 270px;
 }
 .wrongs{
@@ -358,8 +368,6 @@ nav ul{
 }
 nav ul li{
     padding: 3px;
-   
-   
 
 }
 .close i{
@@ -481,7 +489,6 @@ nav ul li{
 .scholl:hover{
     transform: scale(1.03);
 }
-
 h3{
     padding: 1px;
 }
@@ -489,11 +496,10 @@ h3{
 /* //SKILLS */
 
 #skilss{
-    height: 1260px;
+    height: 1100px;
     width: 80%;
-    /* background-color: lawngreen; */
     margin: 30px 0px 0px 20px;
-    box-shadow: 1px 2px 2px 2px burlywood;  
+    box-shadow: 1px 2px 2px 2px gary;  
 }
 .line{
     height:1px;
@@ -502,22 +508,30 @@ h3{
     margin: 20px 0px 0px 30px; 
 
 }
-.skill{
+/* .skill{
     margin: 20px 0px 0px 20px;
     position: absolute;
     border-bottom: 3px solid orange;
     font-size: 20px;
     font-weight: 500;
     font-family: sans-serif;
-}
+} */
 .pl{
-    height: 250px;
-    width: 90%;
+    height: 140px;
+    width: 50%;
     border: 2px solid transparent;
     border-radius: 7px;
-    float: right;
-    background-color: burlywood;
-    margin:  60px 15px 0px 0px;
+    background-color: whitesmoke;
+    box-shadow: 2px 1px 2px 2px gray; 
+    margin:  24px 75px 0px 0px;
+    
+}
+.plss{
+    margin-top: -15px;
+}
+
+.pl:hover{
+    transform: scale(1.03);
 }
 
 /* //PROJECTS */
@@ -534,7 +548,7 @@ h3{
     font-size: 20px;
 }
 .pjs{
-    height: 320px;
+    height: 220px;
     width: 82%;
     float: left;
     margin: 70px 0px 0px 40px;
@@ -542,7 +556,7 @@ h3{
 }
 .pimgs
 {
-    height: 180px;
+    height: 160px;
     width: 100%;
 }
 .ppls
@@ -562,7 +576,10 @@ h3{
     padding-left: 6px;
     border: 1.7px solid white;
     border-radius: 4px;
-    margin: -10px 0px 0px 80px;
+    margin:5px 0px 0px 80px;
 
+}
+#sk{
+    margin-top: 230px;
 }
 }
