@@ -1,16 +1,14 @@
-function Change()
-{
-    var open=document.getElementById("opendiv");
-   
-    if(open.style.display===`none` ) 
-    {
-        open.style.display="block";
-       
-    } 
-    else
-    {
-        open.style.display="block";
-       
-    }
 
-}
+function myFunction() {
+    var x = document.getElementById('opendiv');
+    
+   
+    if (x.style.display === 'none') {
+       x.style.display = 'block';
+     
+    }
+   
+    else {
+      x.style.display = 'none';
+    }
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #bg{
+        background-color: aqua;
+        height: 20px;
+        width: 40%;
+
+    }
+    #open{
+        background-color: black;
+        height: 20px;
+        width: 40%;
+        display: none;
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <div id="bg"  onclick="open()"></div>
+    <div id="open"></div>
+    <script>
+        function open()
+        {
+            var open =document.getElementById("open");
+        
+            if(open.style.display===`none`)
+        {
+            open.style.display='block';
+        }
+        }
+
+    </script>
+</body>
+</html>
